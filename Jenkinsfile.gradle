@@ -12,6 +12,11 @@ pipeline{
                 sh './gradlew assembleRelease'
              }
         }
+    }
+    post {
+        success {
+            def uploadApk =
+        }
 
     }
 

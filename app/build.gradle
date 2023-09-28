@@ -22,6 +22,38 @@ android {
         }
     }
 
+    productFlavors {
+        dev {
+//            applicationId "${application_id}.dev"
+            manifestPlaceholders = [label: "安心筑面板开发版"]
+        }
+        canary {
+//            applicationId "${application_id}.dev"
+            manifestPlaceholders = [label: "安心筑面板测试版"]
+        }
+        canary1 {
+//            applicationId "${application_id}.dev"
+            manifestPlaceholders = [label: "安心筑面板测试版1"]
+        }
+        beta {
+//            applicationId "${application_id}.beta"
+            manifestPlaceholders = [label: "安心筑面板预发版"]
+        }
+        uat {
+//            applicationId "${application_id}.beta"
+            manifestPlaceholders = [label: "安心筑面板预发版1"]
+        }
+
+        prenew {
+//            applicationId "${application_id}.beta"
+            manifestPlaceholders = [label: "prenew安心筑面板预发版"]
+        }
+        stable {
+//            applicationId application_id
+            manifestPlaceholders = [label: "@string/app_name"]
+        }
+    }
+
 }
 
 dependencies {
