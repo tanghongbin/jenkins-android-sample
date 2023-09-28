@@ -22,33 +22,41 @@ android {
         }
     }
 
+    flavorDimensions "api"
     productFlavors {
         dev {
+            dimension "api"
 //            applicationId "${application_id}.dev"
             manifestPlaceholders = [label: "@string/app_name"]
         }
         canary {
+            dimension "api"
 //            applicationId "${application_id}.dev"
             manifestPlaceholders = [label: "@string/app_name"]
         }
         canary1 {
+            dimension "api"
 //            applicationId "${application_id}.dev"
             manifestPlaceholders = [label: "@string/app_name"]
         }
         beta {
+            dimension "api"
 //            applicationId "${application_id}.beta"
             manifestPlaceholders = [label: "@string/app_name"]
         }
         uat {
+            dimension "api"
 //            applicationId "${application_id}.beta"
             manifestPlaceholders = [label: "@string/app_name"]
         }
 
         prenew {
+            dimension "api"
 //            applicationId "${application_id}.beta"
             manifestPlaceholders = [label: "@string/app_name"]
         }
         stable {
+            dimension "api"
 //            applicationId application_id
             manifestPlaceholders = [label: "@string/app_name"]
         }
