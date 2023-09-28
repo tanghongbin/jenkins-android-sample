@@ -25,28 +25,28 @@ android {
     productFlavors {
         dev {
 //            applicationId "${application_id}.dev"
-            manifestPlaceholders = [label: "安心筑面板开发版"]
+            manifestPlaceholders = [label: "@string/app_name"]
         }
         canary {
 //            applicationId "${application_id}.dev"
-            manifestPlaceholders = [label: "安心筑面板测试版"]
+            manifestPlaceholders = [label: "@string/app_name"]
         }
         canary1 {
 //            applicationId "${application_id}.dev"
-            manifestPlaceholders = [label: "安心筑面板测试版1"]
+            manifestPlaceholders = [label: "@string/app_name"]
         }
         beta {
 //            applicationId "${application_id}.beta"
-            manifestPlaceholders = [label: "安心筑面板预发版"]
+            manifestPlaceholders = [label: "@string/app_name"]
         }
         uat {
 //            applicationId "${application_id}.beta"
-            manifestPlaceholders = [label: "安心筑面板预发版1"]
+            manifestPlaceholders = [label: "@string/app_name"]
         }
 
         prenew {
 //            applicationId "${application_id}.beta"
-            manifestPlaceholders = [label: "prenew安心筑面板预发版"]
+            manifestPlaceholders = [label: "@string/app_name"]
         }
         stable {
 //            applicationId application_id
